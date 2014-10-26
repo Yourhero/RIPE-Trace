@@ -16,7 +16,7 @@ New:
 
 *Credit to the RIPE community for writing the core of this code*
 
-Modified by Thomren Boyd
+Updated and Modified by Thomren Boyd
 
 Usage:
 http://pastebin.com/eSTEFGzs
