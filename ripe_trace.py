@@ -93,12 +93,12 @@ def usage(msg=None):
     -h 		--help 			: this message
     -c 2LTRCODE --country=2LTRCODE	: limits the measurements to one country (default is world-wide)
     -a AREACODE --area=AREACODE 	: limits the measurements to one area such as North-Central (default is world-wide)
-    -n ASnumber --asn=ASnumber 		: limits the measurements to one AS (default is all ASes)
-    -o MSMID 	--old_measurement MSMID : uses the probes of measurement #MSMID
+    -n ASnumber --asn=ASnumber 		: limits the measurements to one AS (default is all)
+    -o MSMID 	--old_measurement MSMID : uses the same probes of a previous measurement
     -r N 	--requested=N 		: requests N probes (default is %s)
     -p X 	--percentage=X 		: stops the program as soon as X %% of the probes reported a result (default is %2.2f)
-    -s   	--show 			: displays measurement results upon completion.
-    -m MSMID	--archive=MSMID 	: displays results of measurement #MSMID
+    -s   	--show 			: displays measurement results upon completion
+    -m MSMID	--archive=MSMID 	: displays results of a previous measurement
     """ % (requested, percentage_required)
 
 try:
