@@ -12,6 +12,11 @@ You'll need an API key in ~/.atlas/auth.
 *Credit to the RIPE community for writing the core of this code*
 *Modified by Thomren Boyd*
 """
+#TODO:
+# - Add Historical lookup list -l --list
+# - Add probe look up by AS, ID and v4/v6
+# - add second to last hop + prb_id output table
+#
 
 import json
 import time
